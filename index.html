@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portifólio Thiago Correa</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/caracteristicas.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <img src="./imgs/perfil-instagram.jpg" alt="perfil" id="foto-perfil">
+                <div class="apresentacao">
+                    <h1>Prazer, sou o Thiago Correa</h1>
+                    <ul>
+                        <li>
+                            <span class="icones-info"><img src="./imgs/icons/star.png" alt="icone-estrela"></span>
+                            Estudante e Desenvolvedor de Software
+                        </li>
+                        <li><span class="icones-info"><img src="./imgs/icons/map.png" alt="icone-cidade"></span>Sorocaba-SP</li>
+                        <li><span class="icones-info"><img src="./imgs/icons/tel.png" alt="icone-tel"></span>(15) 99128-8348</li>
+                        <li><a id="email" href="mailto:thiagocdo445@gmail.com"><span class="icones-info"><img src="./imgs/icons/email.png" alt="icone-email"></span>thiagocdo445@gmail.com</a></li>
+                        <li id="LinGit">
+                            <a href="https://www.linkedin.com/in/thiago-correa-de-oliveira/" target="_blank" class="icones-info"><img src="./imgs/icons/linked.png" alt="linkedin">LinkedIn</a>
+                            <a href="https://github.com/ThiagoCOliv" target="_blank" class="icones-info"><img src="./imgs/icons/git.png" alt="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <section class="caracteristicas">
+                <section class="acordeon">
+                    <div class="botao">
+                        <button class="trigger">Habilidades</button>
+                        <img src="./imgs/icons/arrow.png" alt="flecha" class="flecha">
+                    </div>
+                    <div class="content" id="habilidades">
+                        <div class="hab-profissionais">
+                            <h3>Habilidades Profissionais:</h3>
+                            <ul>
+                                <li><img src="./imgs/icons/html.png" alt="html">HTML</li>
+                                <li><img src="./imgs/icons/css.png" alt="css">CSS</li>
+                                <li><img src="./imgs/icons/js.png" alt="js">JAVASCRIPT</li>
+                                <li><img src="./imgs/icons/java.png" alt="java">JAVA</li>
+                            </ul>
+                        </div>
+                        <div class="hab-pessoais">
+                            <h3>Habilidades Pessoais:</h3>
+                            <ul>
+                                <li>Trabalho em Equipe</li>
+                                <li>Fácil Aprendizagem</li>
+                                <li>Raciocinio Lógico</li>
+                                <li>Aberto a Critícas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="acordeon">
+                    <div class="botao">
+                        <button class="trigger">Idiomas</button>
+                        <img src="./imgs/icons/arrow.png" alt="flecha" class="flecha">
+                    </div>
+                    <div class="content" id="idiomas">
+                        <ul>
+                            <li><span class="bandeira"><img src="./imgs/icons/br.png" alt="brasil"></span>Português (Nativo)</li>
+                            <li><span class="bandeira"><img src="./imgs/icons/eua.png" alt="eua"></span>Inglês (Técnico)</li>
+                            <li><span class="bandeira"><img src="./imgs/icons/espanha.png" alt="espanha"></span>Espanhol (Básico)</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="acordeon">
+                    <div class="botao">
+                        <button class="trigger">Educação</button>
+                        <img src="./imgs/icons/arrow.png" alt="flecha" class="flecha">
+                    </div>
+                    <div class="content" id="educacao">
+                        <ul>
+                            <li>Ciência da Computação - UNIP - Fevereiro/2020 à Dezembro/2023</li>
+                            <li>Cursos e Bootcamps na DIO - Meu perfil: <a href="https://web.dio.me/users/thiagocdo445">Thiago Oliveira</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="acordeon">
+                    <div class="botao">
+                        <button class="trigger">Experiência Profissional</button>
+                        <img src="./imgs/icons/arrow.png" alt="flecha" class="flecha">
+                    </div>
+                    <div class="content" id="experiencia">
+                        <p>Em busca da primeira experiência profissional! No momento estou estudando HTML, CSS e JAVASCRIPT</p>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <script src="./js/acordeon.js"></script>
+    </body>
+</html>

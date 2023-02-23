@@ -1,0 +1,87 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#foto-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+header .apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+header .apresentacao ul{
+    margin: .5rem;
+    list-style: none;
+}
+
+header .apresentacao li{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header .apresentacao li a#email:hover{
+    text-decoration: underline;
+}
+
+header .apresentacao li#LinGit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+header .apresentacao .icones-info{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+header .apresentacao .icones-info img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+header .apresentacao li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+}
+
+header .apresentacao li a:hover{
+    text-decoration: underline;
+}
+
+@media(min-width: 768px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header .apresentacao li#LinGit{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
